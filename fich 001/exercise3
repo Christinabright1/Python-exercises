@@ -1,0 +1,9 @@
+#Faça um programa para converter uma temperatura de grau Fahrenheit para Célsius. 
+#Comece por declarar as variáveis necessárias e ler o valor da temperatura Fahrenheit. Fórmula: °C = (°F - 32) / 1,8. 
+
+def temperatura():
+  farh= eval(input("Insira um temperatura: "))
+  celcius= (farh -32) / 1.8
+  return celcius
+
+print(temperatura())
