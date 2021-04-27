@@ -1,0 +1,10 @@
+#Elabore um algoritmo que pede ao utilizador para escrever o número 10. O programa deverá ler o número. Depois, 
+#deverá verificar se o número é igual a 10. Caso o seja, #deverá imprimir a mensagem, “obrigado por inserir 10”. 
+
+num = 0
+while not(num == 10):
+  try:
+    num= eval(input("Insira 10: "))
+  except:
+    pass
+print("Obrigado por inserido 10")
