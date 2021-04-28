@@ -1,0 +1,13 @@
+#Escreva um programa que peça ao utilizador para digitar um valor inteiro positivo. 
+#Leia esse valor. 
+#Se o valor digitado for 0 (zero) ou negativo envie uma mensagem para o ecrã a informar tal facto e termine o programa. 
+#Se o valor digitado for efetivamente positivo, conforme solicitado, 
+#então mostre no ecrã todos os dígitos que se encontram abaixo desse número até zero, inclusive.  
+ 
+#Exemplo:  
+ 
+   #Digitando o valor 4, o resultado deve ser o seguinte:       3    2    1    0 
+ 
+#Por sua vez, digitando o valor -5, o seguinte resultado deve ser visualizado. 
+ 
+#Valor introduzido errado. Termina o Programa.
