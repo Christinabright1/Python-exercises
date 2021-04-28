@@ -1,0 +1,18 @@
+#Faça um programa para converter para Fahrenheit as #temperaturas de graus Celsius compreendidas entre 10 e 20 graus.  
+#Use ciclos.
+
+#test if variable is between 10 and 20
+#°F = °C × 1,8 + 32. 
+for i in range(10,20):
+  farh= i * 1.8 + 32
+  print(farh)
+
+  #Using while
+  
+  num = 10
+
+while num <= 20:
+  farh = num * 1.8 + 32
+  print(farh)
+  num += 1
+  
