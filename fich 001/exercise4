@@ -1,0 +1,2 @@
+Faça um programa para calcular a média de dois números reais (floats) digitados. 
+Comece por declarar as variáveis necessárias e ler os dois valores reais. Fórmula: media = (n1+n2) /2. 
