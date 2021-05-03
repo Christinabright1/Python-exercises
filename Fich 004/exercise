@@ -1,0 +1,7 @@
+#"Escreva um programa que pede um inteiro positivo, n, e imprime no ecrã todos os números entre 0 e n que sejam múltiplos de 3 mas não de 5. Resolva com um ciclo while."
+
+#Escreva um programa que pede um inteiro positivo, n, e imprime no ecrã todos os números entre 0 e n que sejam múltiplos de 3  mas não de 5. Resolva com um ciclo for."
+
+#"Escreva um programa que imprime todos os múltiplos de 7, entre 7 a 70, separados por espaços. Comece em 7 e use como incremento 7."
+
+#"Escreva um programa que imprime todos os múltiplos de 7, entre 7 a 70, separados por espaços. Implemente de outra forma. Faça um ciclo que itere pelos números de 1 a 10 (inclusivé), e imprima a multiplicação do i por 7. OBterá o mesmo resultado."
