@@ -1,0 +1,13 @@
+#Crie uma lista dos numeros pares existentes entre 1 e 100 e imprima-a
+
+#"Crie uma lista dos numeros múltiplos de 3 mas não de 2, existentes entre 1 e 100, e imprima-a. Sugestão: dentro do ciclo for, inclua um selector if para verificar se o número satisfaz a condição."
+
+#criar um programa com varias nome , se o nome termina para a append na lista
+
+#"Faça um programa para criar uma lista de 5 nomes. Peça ao utilizador para inserir nomes e vá guardando numa lista. Imprima a lista no final."
+
+#"Faça um programa que peça um nome e insira numa lista. Repita estas instruções, enquanto o utilizador não escreva a palavra \"fim\". Imprima a lista dos nomes inseridos."
+
+#"Recorrendo a um ciclo, itere pelos vários nomes e imprima para cada nome uma frase do tipo:\n",
+
+#"Recorrendo a um ciclo, itere pelos vários nomes. PAra cada nome, verifique se a última letra é um \"a\". Nesse caso, será o nome de uma rapariga. Com essa informação imprima para cada nome uma frase do tipo:\n",
