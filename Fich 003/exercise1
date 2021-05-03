@@ -1,0 +1,22 @@
+#Escreva um programa que calcule a média de cinco temperaturas ambiente 
+#digitadas, usando processos de repetição for.
+
+
+#leitura de dados
+#enter n 5 vezes depois soma
+soma = 0
+media =0
+lista =[]
+for i in range(5):
+  n= eval(input("Insira o temperaturas: "))
+  lista.append(n)
+
+print(lista)
+
+#calculo
+for i in lista:
+  soma += i
+  media = soma/len(lista)
+#Apresentação de dados
+print(soma)
+print(media)
