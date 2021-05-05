@@ -1,0 +1,4 @@
+Crie um programa que pede ao utilizador para inserir números. Para cada número inserido, apenas o deverá armazenar
+numa lista se este fôr par e positivo. Se o utilizador inserir o valor -1, a inserção deverá terminar, sendo impressos:
+numa linha os elementos da lista, separados por espaços, ordenados de forma crescente
+noutra linha a média dos valores da lista
