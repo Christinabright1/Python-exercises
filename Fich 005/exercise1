@@ -1,0 +1,2 @@
+Crie a função listar_vogais() que recebe uma lista de nomes e imprime uma lista ordenada das vogais presentes nos
+nomes da lista. Não deverá diferenciar maiúsculas de minúsculas. Não deverá repetir letras.
