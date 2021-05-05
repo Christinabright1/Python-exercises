@@ -1,0 +1,14 @@
+#insira um inteiro par negativo ou um impair positivo
+
+def insira():
+  #leitura de dados
+  num =0
+  while  (num >= 0 or num %2 != 0) and (num <= 0 or num %2 ==0):
+    try:
+      num= eval(input("insira um inteiro par negativo ou um impair positivo: "))
+    except:
+      pass
+  print("Obrigado")
+
+insira()
+#num >= 0 or num %2 !=0 and
