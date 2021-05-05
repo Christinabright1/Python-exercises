@@ -1,0 +1,6 @@
+Crie a função insira que não tem argumentos. Deverá apresentar a seguinte mensagem ao utilizador:
+Insira um código com 4 caracteres alfabeticos, todos diferentes:
+Enquanto não satisfizer o requisito (por exemplo, se inserir digitos ou outros carateres não alfabéticos, ou se não
+totalizarem 4 carateres), deverá pedir novamente. Quando satisfizer a condição, deverá imprimir obrigado. 
+Nota: a mensagem impressa deve ser exatamente igual, senão o teste não passa. E não deve imprimir mensagens
+alternativas tipo, errou, ou tente novamente!
