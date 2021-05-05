@@ -11,4 +11,4 @@ def insira():
   print("Obrigado")
 
 insira()
-#num >= 0 or num %2 !=0 and
+
