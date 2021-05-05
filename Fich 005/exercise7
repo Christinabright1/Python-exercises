@@ -1,0 +1,22 @@
+#Peça ao utilizador para inserir um inteiro positivo.
+# Caso não respeite a condição, volte a pedir. 
+#Crie uma lista com todos 
+#os números pares inferiores ao número inserido. Imprima-a
+
+#1
+num = 0
+
+while num <= 0:
+  try:
+    num = int(input("Insira um numero positivo:"))
+  except:
+    pass
+print("Obrigado")
+
+lista = []
+
+for i in range(num):
+  if i < num and i % 2 == 0:
+    lista.append(i)
+#apresentação de dados
+print(lista)
