@@ -1,0 +1,37 @@
+Exercícios :
+considere a seguinte lista: 
+lista = [1, 2, 3, 5, 4, 6, 22, 4, 7, 13, 12] 
+0a. imprima o numero que está na posição de indice 2 
+0b. imprima o numero que está na posição de indice 0 
+0c. imprima o numero que está na última posição da lista 
+0d. imprima o numero que está na penúltima posição da lista 
+1a. Faça um programa que imprima todos os números desta lista usando um ciclo 1b. Faça um programa que imprima os números pares desta lista usando um ciclo  
+2a. Faça um programa que some todos os números desta lista  
+3a. Faça um programa que some todos os números pares desta lista  
+3b. Faça um programa que conta quantos elementos existem na lista, sem usar a função len 3c. Faça um programa que conta quantos números pares existem na lista, sem usar a função len 
+4a. Faça um programa que calcule a média dos números desta lista  
+4b. Faça um programa que cria uma nova lista apenas com os numeros impares 5. Faça um programa que imprime o índice da posição e o valor de cada elemento da lista 
+6a. Faça um programa que procura e indica se existe o número 4 na lista.  
+6b. Faça um programa que peça ao utilizador um numero e verifique se este existe na lista. caso não  exista, imprima "nao existe". Caso exista, indica "existe" 
+7a. Faça um programa que pesquisa qual é o maior número da lista
+7b. Faça um programa que indica a posição em que se encontra o maior número da lista. recorra a  um ciclo for com range, para iterar pelos indices da lista 
+8a. Peça ao utilizador para inserir numeros positivos, que devem ser adicionados numa lista. Caso  insira um negativo não o insira. Caso seja -1 pare a inserção e imprima a lista.  
+8b. Peça ao utilizador para inserir numeros positivos, que devem ser adicionados numa lista. Caso  insira um negativo não o insira. Caso seja -1 pare a inserção e imprima a lista. Indique tambem  quantos números válidos foram inseridos assim como quantos inválidos foram inseridos (não deverá  contabilizar o -1). 
+8c. Peça ao utilizador para inserir numeros positivos que devem ser adicionados numa lista. O  número seguinte deve ser maior do que o anterior, resultando nuam lista com elementos ordenados  de forma crescente. Caso insira um negativo ou inferior do que o anterior, não o insira. Caso insira - 1, pare e imprima a lista. 
+8d. Construa um programa que peça ao utilizador para criar uma lista de numeros crescentes,  positivos 
+Passos: 
+* criar lista vazia 
+* criar variavel numero, inicializada a 0 
+* enquanto numero for diferente de -1 repetir as instruções que se seguem 
+* pedir ao utilizador para inserir um numero 
+* Se inserir -1 terminar o ciclo 
+* se a lista estiver vazia, e o numero for positivo, adicioná-lo à lista  
+* senão, se o numero inserido for maior que o anterior, inseri-lo na lista 
+* enquanto numero for diferente de 0 repetir as instruções que se seguem 
+9b. Faça um programa que pede um inteiro positivo n (enquanto não seja inserido peça novamente).  Imprima o numero 
+9b) Usando o programa anterior, calcule a soma dos n primeiros inteiros.  
+9c) Usando o programa anterior, calcule o fatorial de n (multiplicação dos n primeiros inteiros) 
+10a. Peça ao utilizador para inserir dois numeros. Indique qual é o maior 
+10b. Peça ao utilizador para inserir dois numeros inteiros a e b, onde b deve ser maior que a; caso  não respeite a condição, peça novamente dois números. Some todos os numeros inteiros entre a e b  (incluindo os números).  
+10c. Peça ao utilizador para inserir dois numeros inteiros a e b. Some todos os numeros inteiros  entre a e b (incluindo os números). Deverá avaliar se a é maior que b, ou vice-versa, para fazer o 
+intervalo do ciclo. (Por exemplo, se inserir a = 2 e b = 5, faz um ciclo de 2 a 5. Mas se inserir a = 10 e  b = 3, faz um ciclo de 3 a 10. Para isso, teste se a>b ou não).
