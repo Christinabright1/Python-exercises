@@ -1,0 +1,11 @@
+#"Faça um programa que peça um nome e insira numa lista. Repita estas instruções, enquanto o utilizador não escreva a palavra \"fim\". Imprima a lista dos nomes inseridos."
+
+lista = []
+nome= ""
+i= 1
+while nome.lower() != 'fim':
+  nome= input("Insira o nome {i} na lista: ")
+  if nome != 'fim':
+    lista.append(nome)
+    i += 1
+print(lista)
