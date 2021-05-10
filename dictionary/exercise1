@@ -1,0 +1,19 @@
+
+#Criar um dictionario de forma dynamica
+meses = {} #dictionario vazio
+
+meses["Janeiro"] = 1
+meses["Fevereiro"] = 2
+meses["março"] = 4
+#alterar o valor de  mese de março
+meses["março"] = 3
+meses["april"] = 4
+del meses["april"]
+print(meses)
+
+person = {}
+for i in range(4):
+  nomes = input("Insira um nome: ")
+  idades = input("Insira um idade: ")
+  person[nomes]= idades
+print(person)
