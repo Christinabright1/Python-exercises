@@ -1,0 +1,14 @@
+
+listaPedidos = ["peixe", "carne", "carne", "peixe", "vegetariano", "peixe"]
+print(len(listaPedidos))
+#"Que pratos foram pedidos?"
+setPrato = set(listaPedidos)
+print(setPrato)
+
+#Quantos pedidos de cada prato foram feitos?
+
+listaPrato = []
+for prato in setPrato:
+  print(f"{prato}  {listaPedidos.count(prato)}")
+  listaPrato.append([prato,  listaPedidos.count(prato)])
+print(listaPrato)
