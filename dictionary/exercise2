@@ -1,0 +1,33 @@
+'''
+
+Crie um programa que imprima a quantidade de cada um dos brinquedos necessária devidamente ordenada. Para talimplemente os seguintes passos: \n",
+    "\n",
+    "- crie o set de brinquedos pretendidos\n",
+    "- crie um dicionario em que, para cada brinquedo (chave), guarda a quantidade necessária (valor)\n",
+    "- imprima os dados do dicionario\n",
+    "- transforme o dicionario (os seus items!) numa lista de tuplos, com a função list\n",
+    "- ordene a lista pela quantidade de brinquedos\n",
+    "- imprima a lista devidamente alinhada"
+
+
+'''
+
+lista_brinquedos = ["bola", "boneca", "carro", "boneca", "boneca", "bola", "boneca", "carro",
+                        "boneca", "boneca", "bola", "boneca", "carro", "boneca", "boneca",
+                      "bola", "boneca", "carro", "boneca", "boneca", "bola", 
+    "carro", "bola",
+                        "carro", "boneca", "boneca", "carro", "carro", "carro"]
+#print(lista_brinquedos)
+setBriquedos = set(lista_brinquedos)
+#print(setBriquedos)
+dict_brinquedos = {}
+
+for brinquedo in setBriquedos:
+    print(brinquedo)
+    print(lista_brinquedos.count(brinquedo))
+    dict_brinquedos[brinquedo] = lista_brinquedos.count(brinquedo)
+    for x, y in dict_brinquedos.items():
+        print(x,y)
+
+
+
