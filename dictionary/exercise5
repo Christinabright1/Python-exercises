@@ -1,0 +1,13 @@
+"## Exercício 2\n",
+    "Crie um interpretador de datas. Exemplo de funcionamento:\n",
+    "```\n",
+    "Insira uma data (dd.mm.aa): 11.01.21\n",
+    "Data: 11 de janeiro de 2021\n",
+    "```\n",
+    "\n",
+    "Para tal\n",
+    "- crie o dicionário d_mes que deverá armazenar como chave o número do mês e como valor o nome do mês correspondente. Por exemplo, d_mes[1] guarda \"janeiro\". \n",
+    "- Peça para inserir a data de hoje, no formato _19.12.19_\n",
+    "- Deverá partir a string \"19.12.19\" em três pelo separador \".\", e identifiar o número do mês no dicionário (atenção que os valores recebidos com a função input são do tipo string, e pode ter definido a chave como inteiro).\n",
+    "- apresente a data por extenso. "
+   ]
