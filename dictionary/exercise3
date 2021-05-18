@@ -1,0 +1,25 @@
+'''
+Exercício 4",
+    
+    "Suponha que tem uma frutaria. Considere a seguinte lista que guarda o preço por kilo e o stock de várias frutas da seguinte forma:\n",
+    
+    "listaFrutas = [("banana",  0.9, 20),
+    "         ("maçã", 1.2, 40),
+    "         ("laranja", 1.5, 30)],
+    
+    "Converta a lista no dicionário dicFrutas, que tem como chave o nome da fruta e como valor um dicionário com o preço e o stock correspondentes: \n",
+    "
+    "dicFrutas = {'banana':{'preco': 0.9, 'stock': 20},
+    "             'maçã':{'preco': 1.2, 'stock':40},
+    "             'laranja':{'preço':1.5, 'stock':30},
+    "             }
+    "
+    "Para tal deverá:\n",
+    "1. criar um dicionario vazio dicFrutas\n",
+    "2. extrair cada elemento da lista (nome, preço e stock).\n",
+    "3. criar um dicionario que tem dois elementos, preço e stock\n",
+    "4. adicionar ao dicFrutas, onde a chave é o nome da fruta e o valor o dicionário criado\n",
+    "5. imprimir o dicionario\n",
+    "6. calcule o valor que tem em stock. Para tal, faça um ciclo pelo dicionário e acumule numa variável valorStockTotal a multiplicação do preço pelo stock. Imprima o valor no ecrã"
+   ]
+   '''
