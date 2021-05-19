@@ -1,0 +1,6 @@
+"Faça um programa que calcula a idade:\n",
+    "* peça o ano atual\n",
+    "* peça o nome e ano nascimento\n",
+    "* imprima nome com idade\n",
+    "* volte a pedir outro nome e idade, enquanto não escrever a palavra \"fim\""
+   ]
