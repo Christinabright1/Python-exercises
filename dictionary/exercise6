@@ -1,0 +1,11 @@
+'''
+count how many space and new line exist in the text
+'''
+def dictionary(string):
+    result= {'\n': 0, ' ': 0}
+    for el in string:
+        if el == '\n' or el == ' ':
+            result[el] += 1
+    return result
+
+print(dictionary("Code, Compile\n, Run and Debug online\n from anywhere in world."))
