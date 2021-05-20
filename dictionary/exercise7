@@ -1,0 +1,24 @@
+d= {
+  'Belem': 1400,
+  'Ajuda': 1300,
+  'Benfica': 1700
+   }
+   
+for key in d.keys():
+  print(key)
+
+for value in d.values():
+  print(value)
+
+for (key, value) in d.items():
+  print(key, value)
+  
+
+def retornar_localidade(d, codigoP):
+  #if i enter dictionary and code , i should have the name of place
+  for (key, value) in d.items():
+    if codigoP ==  value:
+      return key
+
+print(retornar_localidade(d, 1400))
+   
