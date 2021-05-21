@@ -1,0 +1,10 @@
+'''Escreva um programa que peça ao utilizador para digitar um valor inteiro positivo. Leia esse valor. Se o valor digitado for 0 (zero) ou negativo envie uma mensagem para o ecrã a informar tal facto e termine o programa. Se o valor digitado for efetivamente positivo, conforme solicitado, então mostre no ecrã todos os dígitos que se encontram abaixo desse número até zero, inclusive. USE CICLOS'''
+
+x= int(input("Insira um numero positivo:"))
+if x <= 0:
+  print("O numero não é positivo")
+else:
+  while x > 0:
+    x = x-1
+    print(x)
+    
