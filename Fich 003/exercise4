@@ -1,0 +1,16 @@
+'''
+Escreva um programa que pede um inteiro par entre 8 e 20 e imprime a tabuada desse número, recorrendo a um ciclo for.
+'''
+n=0
+soma= 0
+while not (8<= n <= 20 and n% 2== 0):
+  try:
+    n= eval(input("Insira um numero :"))
+  except:
+    pass
+
+for i in range (11):
+  #print(f"{numero} ")
+  print(f"{n} x {i:2} = {n*i:3}")
+  #soma = soma+ (n*i:3)
+  #print(soma)
