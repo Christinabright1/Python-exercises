@@ -1,2 +1,10 @@
  #Faça um programa para converter para Fahrenheit as temperaturas de graus Celsius compreendidas entre 10 e 20 graus.  
 #Use ciclos. 
+
+
+##Faça um programa para converter para Fahrenheit as temperaturas de graus Celsius compreendidas entre 10 e 20 graus.
+#fahrenheit= celsius * 1.8+ 32 ;
+fahrenheit=0
+for celsius in range(10, 21):
+  fahrenheit= celsius * 1.8+ 32 
+  print(fahrenheit)
