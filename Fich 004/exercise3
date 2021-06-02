@@ -1,0 +1,18 @@
+#Insira uma palavra que comece a acabe com a letra 'a' e tenha mais de que 4 carateres
+nome = ""
+lista = []
+
+#leitura de dados 
+while True:
+  try:
+    nome= input("Insira um nome:")
+    if len(nome) > 4 and nome[0] == 'a' and nome[-1] == 'a':
+      lista.append(nome)
+      break
+  except:
+      pass
+print(lista)
+
+
+name = "ana"
+print(len(name))
