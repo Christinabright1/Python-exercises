@@ -1,0 +1,6 @@
+# Python-exercises
+
+def multi_by2(item):
+  return item*2
+
+print(list(map(multi_by2, [1,2,3])))
