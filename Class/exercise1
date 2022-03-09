@@ -1,0 +1,14 @@
+#give a class an attribute
+
+class User:
+  #define init method
+  def __init__(self,first,last,age):
+    self.first = first
+    self.last = last
+    self.age = age
+
+user1 = User('Joe','Smith',8)
+user2 = User('Bianca','ana',2)
+print(user1.first)
+print(user2)
+    
