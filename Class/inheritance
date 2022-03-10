@@ -1,0 +1,14 @@
+class Animal:
+  cool= True  #class attribute
+#instance method
+  def make_sound(self,sound):
+     print(f"this animal said {sound}")
+
+class Cat(Animal):
+  pass
+
+a = Animal()
+print(a.make_sound("CHIRP"))
+
+blue = Cat()
+print(blue.make_sound("Meow"))
