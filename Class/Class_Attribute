@@ -1,0 +1,20 @@
+class Pet:
+  #Create a class Attribute
+  allowed = ['cat','dog','fish','rat'];
+  def __init__(self,name, especies):
+    if especies not in Pet.allowed:
+      raise ValueError(f"You can't have a {especies} pet")
+    self.name = name
+    self.especies = especies
+#prevent user to change manual name and especies
+  def set_species(self, especies):
+    self.especies = especies
+    if especies not in Pet.allowed:
+      raise ValueError(f"You can't have a {especies} pet")
+    #Check if it is allowed
+cat= Pet("Blue", "cat")
+Dog= Pet("Wyatt","dog")
+Tigger = Pet("Tony", "Tigger")
+print(cat.name)
+print(Dog.especies)
+print(Tigger.name)#Error because Tigger is not allowed
