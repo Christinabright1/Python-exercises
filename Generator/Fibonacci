@@ -1,0 +1,11 @@
+def fib(num):
+  a=0
+  b=1
+  for i in range(100):
+    yield a
+    tem = a
+    a=b
+    b= tem+b
+    
+for x in fib(20):
+  print(x)
