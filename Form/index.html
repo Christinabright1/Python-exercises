@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="text.css">
+</head>
+<body>
+	
+	 <div class="container">
+	<div class="header">
+<h2>Formulario</h2>
+ </div><!--Header-->  
+<form class="form" id="form" name="myForm" onsubmit="ValidationForm()">
+	<div class="form-control">
+<label for="nome">Nome<span>*</span></label>
+<input type="text" placeholder="Enter nome" name="fname" required>
+</div>
+<div class="form-control">
+<label for="morada">Morada</label>
+<input type="text" name="fmorada">
+</div>
+<div class="form-control">
+<label for="localidade">Localidade <span>*</span></label>
+<input type="text" name="localidade" name="flocalidade" required>
+</div>
+<div class="form-control">
+<label for="telemovel">Telemovel<span>*</span></label>
+<input type="tel" name="telemovel" name="ftel" required>
+<p id="demo"></p>
+</div>
+<div class="form-control">
+<label for="idade">Idade</label>
+<select name="idade" id="idade" name="fselect">
+	<option value="18">18</option>
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option value="35">35</option>
+	<option value="40">40</option>
+	<option value="45">45</option>
+</select>
+</div>
+<div class="form-control">
+<label for="sexo">Sexo</label><br>
+<input type="radio" name="female" value="female">
+<label for=female>female</label><br>
+<input type="radio" name="male" value="male">
+<label for=female>male</label>
+</div>
+<div class="form-control">
+<label for="Correio Eletrónico ">Correio Eletrónico <span>*</span></label>
+<input type="email" name="email" name="femail" required>
+</div>
+<!--Submit-->
+<div class="button">
+	<input type="submit" name="submit" value="submit"  id="submit" onsubmit="myForm"> 
+	<input type="reset" name="reset" id="reset" value="reset" onclick="resetForm()"> 
+</div>
+</form>
+</div><!--Container-->
+</body>
+</html>
